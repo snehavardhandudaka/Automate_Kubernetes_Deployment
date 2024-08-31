@@ -1,0 +1,18 @@
+- hosts: localhost
+  tasks:
+    - name: Create Kubernetes Namespace
+      kubernetes.core.k8s:
+        kubeconfig: /home/vardhan/.kube/config
+        state: present
+        definition:
+          apiVersion: v1
+          kind: Namespace
+          metadata:
+            name: my-namespace
+
+    - name: Deploy Application
+      kubernetes.core.k8s:
+        kubeconfig: /home/vardhan/.kube/config
+        state: present
+        src: deployment.yaml  # updated path
+
