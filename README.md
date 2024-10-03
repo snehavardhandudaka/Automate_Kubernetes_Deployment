@@ -3,7 +3,7 @@ Tech word with Nana project.
 ---
 ### Describe the Project
 
-In this project, I built a system for automatically deploying and managing applications on a Kubernetes cluster using AWS EKS. I set up everything from scratch, including the cluster and the compute resources it needs. I then automated the setup of these resources and the deployment of your applications using Terraform and Ansible. 
+In this project, I built a system for automatically deploying and managing applications on a Kubernetes cluster using AWS EKS. I set up everything from scratch, including the cluster and the compute resources it needs. I then automated the setup of these resources and the deployment of applications using Terraform and Ansible. 
 
 The end result is a streamlined process where updates to my applications are automatically handled, keeping everything running smoothly and efficiently. This project demonstrates how to integrate cloud services, automation tools, and container orchestration to build a modern, scalable deployment environment for applications.
 
